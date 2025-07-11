@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agile RT Consulting - Pulmonary Consulting</title>
+    <!-- Tailwind CSS CDN for utility-first styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter for a modern, clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom CSS for the Inter font and smooth scrolling */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+        }
+        /* Custom colors based on the logo palette */
+        .bg-primary-blue { background-color: #3498DB; }
+        .text-primary-blue { color: #3498DB; }
+        .bg-vibrant-green { background-color: #2ECC71; }
+        .text-vibrant-green { color: #2ECC71; }
+        .bg-dark-accent { background-color: #333333; }
+        .text-dark-accent { color: #333333; }
+        .bg-light-gray { background-color: #F3F4F6; }
+
+        /* Custom hover effect for buttons */
+        .btn-hover-scale {
+            transition: transform 0.2s ease-in-out;
+        }
+        .btn-hover-scale:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-white text-dark-accent">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-lg p-4 fixed w-full z-10 top-0 rounded-b-lg">
+        <div class="container mx-auto flex justify-between items-center flex-wrap">
+            <!-- Logo and Brand Name -->
+            <div class="flex items-center space-x-2">
+                <!-- Logo SVG - Recreating the essence of the provided logo for direct embedding -->
+                <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint0_linear)"/>
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint1_linear)"/>
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint2_linear)"/>
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint3_linear)"/>
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint4_linear)"/>
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint5_linear)"/>
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint6_linear)"/>
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint7_linear)"/>
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint8_linear)"/>
+                    <path d="M50 10C30 10 15 25 15 45C15 65 30 80 50 90C70 80 85 65 85 45C85 25 70 10 50 10Z" fill="url(#paint9_linear)"/>
+                    <defs>
+                        <linearGradient id="paint0_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#3498DB"/>
+                            <stop offset="1" stop-color="#21618C"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2ECC71"/>
+                            <stop offset="1" stop-color="#1F8C4D"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#3498DB"/>
+                            <stop offset="1" stop-color="#21618C"/>
+                        </linearGradient>
+                        <linearGradient id="paint3_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2ECC71"/>
+                            <stop offset="1" stop-color="#1F8C4D"/>
+                        </linearGradient>
+                        <linearGradient id="paint4_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#3498DB"/>
+                            <stop offset="1" stop-color="#21618C"/>
+                        </linearGradient>
+                        <linearGradient id="paint5_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2ECC71"/>
+                            <stop offset="1" stop-color="#1F8C4D"/>
+                        </linearGradient>
+                        <linearGradient id="paint6_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#3498DB"/>
+                            <stop offset="1" stop-color="#21618C"/>
+                        </linearGradient>
+                        <linearGradient id="paint7_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2ECC71"/>
+                            <stop offset="1" stop-color="#1F8C4D"/>
+                        </linearGradient>
+                        <linearGradient id="paint8_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#3498DB"/>
+                            <stop offset="1" stop-color="#21618C"/>
+                        </linearGradient>
+                        <linearGradient id="paint9_linear" x1="50" y1="10" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#2ECC71"/>
+                            <stop offset="1" stop-color="#1F8C4D"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span class="text-2xl font-bold text-dark-accent">Agile RT Consulting</span>
+            </div>
+
+            <!-- Mobile Menu Button (Hamburger) -->
+            <div class="block lg:hidden">
+                <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-primary-blue border-primary-blue hover:text-vibrant-green hover:border-vibrant-green">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden" id="nav-content">
+                <ul class="text-lg lg:flex justify-end flex-1 items-center">
+                    <li class="mr-3 mt-2 lg:mt-0">
+                        <a class="inline-block py-2 px-4 text-dark-accent hover:text-primary-blue font-medium rounded-md transition duration-300" href="#home">Home</a>
+                    </li>
+                    <li class="mr-3 mt-2 lg:mt-0">
+                        <a class="inline-block py-2 px-4 text-dark-accent hover:text-primary-blue font-medium rounded-md transition duration-300" href="#services">Services</a>
+                    </li>
+                    <li class="mr-3 mt-2 lg:mt-0">
+                        <a class="inline-block py-2 px-4 text-dark-accent hover:text-primary-blue font-medium rounded-md transition duration-300" href="#about">About Us</a>
+                    </li>
+                    <li class="mt-2 lg:mt-0">
+                        <a class="inline-block py-2 px-4 text-dark-accent hover:text-primary-blue font-medium rounded-md transition duration-300" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="relative bg-gradient-to-r from-primary-blue to-vibrant-green text-white py-24 md:py-32 lg:py-40 flex items-center justify-center min-h-screen-75 pt-20">
+        <div class="container mx-auto text-center px-6">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 rounded-lg p-2">
+                Agile RT Consulting
+            </h1>
+            <p class="text-xl md:text-2xl lg:text-3xl mb-8 font-light max-w-3xl mx-auto rounded-lg p-2">
+                Your Partner in Advanced Pulmonary Care Education and Optimization.
+            </p>
+            <a href="#services" class="bg-white text-primary-blue hover:bg-vibrant-green hover:text-white font-bold py-3 px-8 rounded-full shadow-lg text-lg md:text-xl inline-block transition duration-300 ease-in-out transform hover:scale-105">
+                Explore Our Services
+            </a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24 bg-light-gray">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-dark-accent">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-primary-blue mb-4 text-5xl text-center">
+                        <!-- Icon for Education -->
+                        <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5s3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18s-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark-accent mb-4 text-center">Clinical Education Programs</h3>
+                    <p class="text-dark-accent text-center">
+                        Customized educational workshops and training programs for healthcare professionals, focusing on advanced respiratory care techniques and best practices.
+                    </p>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-vibrant-green mb-4 text-5xl text-center">
+                        <!-- Icon for Consulting -->
+                        <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 4v12m-4-4v4m-4-4v4m9-11a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2m4 0h4"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark-accent mb-4 text-center">Operational Optimization</h3>
+                    <p class="text-dark-accent text-center">
+                        Strategic consulting to streamline respiratory therapy department workflows, improve patient outcomes, and enhance efficiency.
+                    </p>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-primary-blue mb-4 text-5xl text-center">
+                        <!-- Icon for Compliance -->
+                        <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.001 12.001 0 002 12c0 2.757 1.125 5.228 2.937 7.078A11.999 11.999 0 0012 22c2.928 0 5.698-.926 7.937-2.58A12.001 12.001 0 0022 12c0-2.757-1.125-5.228-2.937-7.078z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark-accent mb-4 text-center">Compliance & Quality Assurance</h3>
+                    <p class="text-dark-accent text-center">
+                        Guidance on regulatory compliance, quality improvement initiatives, and accreditation readiness for respiratory therapy services.
+                    </p>
+                </div>
+                <!-- Service Card 4 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-vibrant-green mb-4 text-5xl text-center">
+                        <!-- Icon for Technology -->
+                        <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1l-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark-accent mb-4 text-center">Technology Integration</h3>
+                    <p class="text-dark-accent text-center">
+                        Assistance with evaluating and integrating new respiratory therapy technologies and equipment for enhanced patient care.
+                    </p>
+                </div>
+                <!-- Service Card 5 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-primary-blue mb-4 text-5xl text-center">
+                        <!-- Icon for Curriculum -->
+                        <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5s3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18s-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark-accent mb-4 text-center">Curriculum Development</h3>
+                    <p class="text-dark-accent text-center">
+                        Designing and developing comprehensive respiratory therapy curricula for academic institutions and healthcare organizations.
+                    </p>
+                </div>
+                <!-- Service Card 6 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-2">
+                    <div class="text-vibrant-green mb-4 text-5xl text-center">
+                        <!-- Icon for Research -->
+                        <svg class="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark-accent mb-4 text-center">Research & Evidence-Based Practice</h3>
+                    <p class="text-dark-accent text-center">
+                        Support for implementing evidence-based practices and conducting research to advance respiratory therapy.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-12">
+            <div class="lg:w-1/2">
+                <img src="https://placehold.co/600x400/3498DB/FFFFFF?text=About+Us+Image" alt="About Us" class="rounded-xl shadow-lg w-full h-auto object-cover">
+            </div>
+            <div class="lg:w-1/2">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-dark-accent">About Agile RT Consulting</h2>
+                <p class="text-lg mb-4 text-dark-accent leading-relaxed">
+                    At **Agile RT Consulting**, we are dedicated to elevating the standard of respiratory care through dynamic and responsive educational and operational solutions. Founded by Janae, a seasoned Clinical Respiratory Therapy Educator, our mission is to empower healthcare organizations and professionals with the knowledge and strategies needed to achieve optimal patient outcomes.
+                </p>
+                <p class="text-lg text-dark-accent leading-relaxed">
+                    We pride ourselves on our agile approach, adapting our consulting and educational programs to meet the unique challenges and goals of each client. From curriculum development to operational efficiency, we are committed to fostering excellence and innovation in pulmonary health.
+                </p>
+                <a href="#contact" class="mt-8 inline-block bg-primary-blue text-white hover:bg-vibrant-green font-bold py-3 px-8 rounded-full shadow-lg text-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-16 md:py-24 bg-gradient-to-r from-vibrant-green to-primary-blue text-white text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Transform Your Respiratory Care?</h2>
+            <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
+                Partner with Agile RT Consulting to enhance your team's expertise, optimize your operations, and achieve superior patient outcomes.
+            </p>
+            <a href="#contact" class="bg-white text-vibrant-green hover:bg-primary-blue hover:text-white font-bold py-3 px-8 rounded-full shadow-lg text-lg md:text-xl inline-block transition duration-300 ease-in-out transform hover:scale-105">
+                Schedule a Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-light-gray">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-dark-accent">Contact Us</h2>
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-lg font-medium text-dark-accent mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue" placeholder="Your Name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-lg font-medium text-dark-accent mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue" placeholder="your@example.com" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-lg font-medium text-dark-accent mb-2">Subject</label>
+                        <input type="text" id="subject" name="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue" placeholder="Subject of your inquiry" required>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-lg font-medium text-dark-accent mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue" placeholder="Tell us about your needs..." required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-primary-blue text-white hover:bg-vibrant-green font-bold py-3 px-8 rounded-full shadow-lg text-lg transition duration-300 ease-in-out transform hover:scale-105">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-accent text-white py-8 rounded-t-lg">
+        <div class="container mx-auto text-center px-6">
+            <p>&copy; 2023 Agile RT Consulting. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="text-white hover:text-primary-blue transition duration-300">Privacy Policy</a>
+                <a href="#" class="text-white hover:text-primary-blue transition duration-300">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile navigation toggle
+        const navToggle = document.getElementById('nav-toggle');
+        const navContent = document.getElementById('nav-content');
+
+        navToggle.addEventListener('click', () => {
+            navContent.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const navLinks = navContent.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (!navContent.classList.contains('hidden') && window.innerWidth < 1024) {
+                    navContent.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
